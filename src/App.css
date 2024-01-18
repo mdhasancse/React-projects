@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .header{
   text-align: center;
   padding: 10px;
@@ -24,4 +25,10 @@ ul li {
   color: darkblue;
   margin: 5px;
 
+=======
+.allItems{
+  text-align: center;
+  background-color: #333;
+  color: white;
+>>>>>>> 14f1a127d1d82b570b8db021f62bac5b59977b8d
 }

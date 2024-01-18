@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "headerfooter",
+=======
+  "name": "numbercounter",
+>>>>>>> 14f1a127d1d82b570b8db021f62bac5b59977b8d
   "version": "0.1.0",
   "private": true,
   "dependencies": {
