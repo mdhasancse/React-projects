@@ -2,33 +2,8 @@
   text-align: center;
 }
 
-<<<<<<< HEAD
-.header{
-  text-align: center;
-  padding: 10px;
-  background-color: rgb(122, 115, 163);
-  color: white;
-}
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
-
-ul {
-  background: #3399ff;
-  padding: 20px;
-}
-ul li {
-  background: #cce5ff;
-  color: darkblue;
-  margin: 5px;
-
-=======
 .allItems{
   text-align: center;
   background-color: #333;
   color: white;
->>>>>>> 14f1a127d1d82b570b8db021f62bac5b59977b8d
 }

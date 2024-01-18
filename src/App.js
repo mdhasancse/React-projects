@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-=======
 import logo from './logo.svg';
 import {useState, useCallback,useEffect} from 'react';
 import './App.css';
@@ -39,7 +30,6 @@ function App() {
         <p>footer {count}</p>
       </div>
     </>
->>>>>>> 14f1a127d1d82b570b8db021f62bac5b59977b8d
   );
 }
 
