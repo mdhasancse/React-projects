@@ -1,24 +1,35 @@
 import logo from './logo.svg';
+import {useState, useCallback,useEffect} from 'react';
 import './App.css';
 
 function App() {
+
+  let [count, setCounter] = useState(5)
+  // let count=5;
+  const addValue = ()=>{
+    count=count+1;
+    // console.log("clicked",Math.random());
+    setCounter(count)
+  }
+
+  const removeValue = ()=>{
+    if(count<=0) 
+      alert("You cant remove items Irs already zero");
+    count=count-1;
+    setCounter(count)
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='allItems'>
+        <h1>Xenica with react</h1>
+        <h2>counter number {count}</h2>
+        <button onClick={addValue}>Add Value {count}</button>
+        <br />
+        <button onClick={removeValue}>Remove Value {count}</button>
+        <p>footer {count}</p>
+      </div>
+    </>
   );
 }
 
